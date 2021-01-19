@@ -6,14 +6,14 @@ Automates tasks to help kick off a modular web app project with an organized fil
 Creates a directory, fills it with default files and subdirectories, and generates a new virtual environment. The default structure looks like:
 
 `
-~\[project_name]
-  |-- config.py
-  |-- run.py
-  |__ \app
-      |-- __init__.py
-      |__ \templates
-      |__ \static
-  |__ \env
+~\[project_name]\n
+  |-- config.py\n
+  |-- run.py\n
+  |__ \app\n
+      |-- __init__.py\n
+      |__ \templates\n
+      |__ \static\n
+  |__ \env\n
 `
 The default structure can be edited by changing the global variables `DEFAULT_FOLDERS`, `DEFAULT_FILES`, and the default creation of a virtual environment can be turned off by setting `CREATE_VENV = False`
 
