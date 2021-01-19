@@ -22,7 +22,7 @@ Takes two system arguments, the name of the project and the path of the parent d
 ex: `~\start_web_project> py initiate_project.py MyApp C:\Users\chris`
 
 ## add_module.py
-Creates sub directorys and default files in an existing project folder for a new module. For example running `add_module.py` to add a module `auth` to a project with the file structure above (created by `initiate_project.py`) it would result in a structure like:
+Creates sub directorys and default files in an existing project folder for a new module. For example running `add_module.py` to add a module `auth` to a project with the file structure above (created by `initiate_project.py`) would result in a structure like:
 
 ```
 ~\[project_name]
@@ -48,5 +48,6 @@ ex: `~\start_web_project> py add_module.py auth C:\Users\chris\MyApp`
 Automatically generates a directory tree for a given directory to help keep track of the organizational structure of a project. This tree can either be printed to the consol or saved to a .txt file
 
 Takes two system arguments, the name of the directory and either the file path for the .txt file to save the tree or the keyword `print`
+
 ex: `~\start_web_project> py create_dir_tree.py C:\Users\chris\MyApp\dir_tree.txt` would save a directory tree to dir_tree.txt
 or: `~\start_web_project> py create_dir_tree.py print` would print a directory tree to the consol
